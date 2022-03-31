@@ -1,0 +1,113 @@
+/* -----------------------------------------    Desktops    ------------------------------------- */
+/* Large Desktop */
+
+@media only screen and (min-width: 1921px) 
+{
+  @import "general_1920";
+}
+
+@media only screen and (max-width: 1680px) 
+{
+  @import "_general_1680";
+}
+
+/* Medium Desktop & iPad Pro Landscape */
+@media only screen and (max-width: 1366px) 
+{
+  @import "_general_1366";
+}
+
+/* Small Desktop & Galaxy Tab Landscape */
+@media only screen and (max-width: 1280px) 
+{
+  @import "_general_1280";
+}
+
+
+/****  starts Landscape *****/
+@media only screen and (max-width: 1239px) 
+{
+  @import "_general_1239";
+}
+
+/* --------------------------------------    Tablets $ Mobile    -------------------------------- */
+
+/* iPad Pro Portrait & iPad I/II Landscape */
+@media only screen and (max-width: 1024px) 
+{
+  @import "_general_1024";
+}
+
+/* iPad Pro Portrait & iPad I/II Landscape */
+@media only screen and (max-width: 992px) 
+{
+  @import "_general_992";
+}
+
+/* Galaxy Tab Portrait */
+@media only screen and (max-width: 800px) 
+{
+  @import "_general_800";
+}
+
+/* iPad I/II Portrait */
+@media only screen and (max-width: 768px) 
+{
+  @import "_general_768";
+}
+
+/* iPad I/II Portrait */
+@media only screen and (max-width: 767px) 
+{
+  @import "_general_767";
+}
+
+/* iPhone 6+ Landscape */
+@media only screen and (max-width: 736px) 
+{
+  @import "_general_736";
+}
+
+/* Phone 6 Landscape */
+@media only screen and (max-width: 667px) 
+{
+  @import "_general_667";
+}
+
+/* Galaxy S3/S4/S5 Landscape*/
+@media only screen and (max-width: 640px) 
+{
+  @import "_general_640";
+}
+
+/* iPhone 5 Landscape */
+@media only screen and (max-width: 568px) 
+{
+  @import "_general_568";
+}
+
+/* iPhone 4 Landscape */
+@media only screen and (max-width: 480px) 
+{
+  @import "_general_480";
+}
+
+/* iPhone 6+ Portrait */
+@media only screen and (max-width: 414px) 
+{
+  @import "_general_414";
+}
+
+/* iPhone 6 Portrait */
+@media only screen and (max-width: 375px) 
+{
+  @import "_general_375";
+}
+
+/* iPhone 4/5 & Galaxy S3/S4/S5 Portrait */
+@media only screen and (max-width: 320px) 
+{
+  @import "_general_320";
+}
+
+
